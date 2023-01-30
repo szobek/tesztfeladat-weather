@@ -1,0 +1,16 @@
+
+  <div class="card " *ngIf="pic!=''">
+    <div class="card-title">
+
+      <div class="name text-center"></div>
+    </div>
+    <div class="card-body">
+        <picture>
+            <img [src]="writeImegaName(pic)" alt="sun" >
+          </picture>
+          
+      <div class="temp">{{temper}} kelvin</div>
+      <div class="wind">{{wind}} km/h</div>
+
+    </div>
+  </div>
